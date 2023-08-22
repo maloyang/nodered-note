@@ -1,5 +1,7 @@
+## 在Azure上安裝 nodered
+
 參考: https://nodered.org/docs/getting-started/azure
 
 - 安裝nodejs那段，改成這樣 (nodered建議用nodejs14, 預設ubuntu安裝的是nodejs12，以不被nodered支援)
-  - curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
-  - sudo apt -y install nodejs
+- curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
+- sudo apt -y install nodejs
