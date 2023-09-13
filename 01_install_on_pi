@@ -1,0 +1,10 @@
+# install NodeRED on Raspberry pi
+
+- ref: https://nodered.org/docs/getting-started/raspberrypi
+- 下指令：`bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)`
+- 這樣將會
+  - 把目前的Node-RED停止
+  - 移除Node-RED, Node.js
+  - 裝Node.js 18 LTS (我安裝當下是這樣)
+  - 裝Node_RED core 3.1.0
+  - 裝rpi專屬的node元件
